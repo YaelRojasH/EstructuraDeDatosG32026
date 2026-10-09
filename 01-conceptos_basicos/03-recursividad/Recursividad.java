@@ -45,7 +45,6 @@ public class Recursividad {
 
 
     // EJERCICIO 1
-    
     public int sumarN(int n) {
 
         // Caso base
@@ -57,8 +56,7 @@ public class Recursividad {
 
 
     // EJERCICIO 2
-
-    public int factorial(int n) {
+    public static int factorial(int n) {
 
         // Caso base
         if (n == 0) {
@@ -69,8 +67,7 @@ public class Recursividad {
 
 
     // EJERCICIO 3
-
-    public int multiplicar(int numero, int veces) {
+    public static int multiplicar(int numero, int veces) {
 
         // Caso base
         if (veces == 0) {
@@ -79,10 +76,8 @@ public class Recursividad {
         return numero + multiplicar(numero, veces - 1);
     }
 
-
     // EJERCICIO 4
-
-    public int potencia(int base, int exponente) {
+    public static int potencia(int base, int exponente) {
         if (exponente == 0) {
             return 1;
         }
